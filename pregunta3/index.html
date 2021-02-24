@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <h2>Clave d</h2>
+
+    <form id="partidoPolitico">
+        <label for="name">Nombre:</label>
+        <input type="name" id="name" placeholder="Nombre">
+
+        <label for="side">Orientación:</label>
+        <input type="side" id="side" placeholder="izq, centro, der">
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="cantidad" id="cantidad" placeholder="cantidad">
+
+        <button onclick="newElement()">Añadir</button>
+
+    <div class="datos" style="width:100%">
+        <table id="partidoPolitico">
+            <tr>
+                <th>Nombre</th>
+                <th>Orientación</th>
+                <th>Cantidad</th>
+                <th>Estado</th>
+            </tr>
+        </table>
+    </div>
+
+    <script>< src="/static/script.js"></><script>>
+</body>
+</html>
+
+al dar click en el botón enviar debe agregar una fila a la tabla que se encuentra abajo del formulario. Si
+la cantidad de votos es mayor a 50 colocar 50+ si es menos colocar 50- si es igual 50=. Antes
+de la tabla habrá otro botón con la leyenda ganador, al presionarlo deberá buscar entre
+todos los partidos el que tenga más votos. Y por medio de un alerta decir quién es el partido
+con mas votos y quien es el partido con menos votos. Para efectos simplicidad no ingrese
+valores iguales en los votos. 
